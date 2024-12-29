@@ -7,6 +7,8 @@ body {
     margin-bottom: 0;
     border: 3px solid black;
     height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px
 }
 
 main {
@@ -18,7 +20,7 @@ main {
 
 .image-container {
     display: flex;
-    flex: 1;
+    flex: 1.15;
     align-items: center;
     justify-content: center;
     height: 100%;
@@ -28,7 +30,6 @@ main {
 .content-container {
     display: flex;
     flex-direction: column;
-    align-items: left;
     justify-content: center;
     flex: 2;
     border: 3px solid black;
@@ -38,11 +39,12 @@ main {
     display: flex;
     flex-direction: column;
     flex: 1;
+    border: solid 3px salmon;
 }
 
 .top-section {
     height: 100%;
-    border: 3px solid red;
+    border: 3px solid rgb(37, 187, 228);
 }
 
 .form-container {
@@ -50,19 +52,34 @@ main {
     flex-direction: row;
     width: 100%;
     height: 100%;
-    border: 3px solid black;
-    padding: 0;
-    margin: 0;
+    border: 3px solid rgb(204, 24, 147);
 }
 
 .forms {
     display: flex;
+    flex-direction: column;
     width: 100%;
     margin: 10px;
     border: 3px solid blue;
+    padding: 10px;
 }
 
 .bottom-section {
     height: 100%;
     border: 3px solid red;
+    padding: 40px;
+}
+
+button {
+    border-radius: 12px;
+    padding: 15px;
+    padding-right: 50px;
+    padding-left: 50px;
+    background-color: #596D48;
+    color: white;
+    font-size: 20px;
+}
+
+a {
+    color: #596D48
 }
