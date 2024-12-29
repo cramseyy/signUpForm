@@ -46,7 +46,13 @@ main {
     display: flex;
     flex: 1;
     border: 3px solid rgb(37, 187, 228);
-    /* padding-top: 110px; */
+    background-color: rgba(249,250,251);
+}
+
+.top-section p {
+    padding-top: 140px;
+    padding-left: 40px;
+    font-size: 28px;
 }
 
 .form-container {
@@ -57,6 +63,8 @@ main {
     height: 100%;
     border: 3px solid rgb(204, 24, 147);
     box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+
 }
 
 .form-header {
@@ -64,15 +72,18 @@ main {
     flex-direction: row;
     width: 100%;
     border: 3px solid green;
-    padding-left: 20px;
+}
+
+.form-header p {
+    padding-left: 40px;
+    font-size: 28px;
 }
 
 .forms {
     display: flex;
     flex-direction: row;
     width: 100%;
-    margin: 10px;
-    border: 3px solid blue;
+    border: 3px solid rgb(218, 246, 95);
 }
 
 .forms1 {
@@ -80,7 +91,7 @@ main {
     flex-direction: column;
     margin: 10px;
     width: 40%;
-    border: 3px solid blue;
+    border: 3px solid rgb(25, 219, 54);
     padding: 10px;
 }
 
@@ -100,6 +111,7 @@ main {
     height: 100%;
     border: 3px solid red;
     padding: 40px;
+    background-color: rgba(249,250,251);
 }
 
 button {
@@ -110,15 +122,12 @@ button {
     background-color: #596D48;
     color: white;
     font-size: 20px;
+    width: 30%;
 }
 
 a {
-    color: #596D48
-}
-
-.forms p {
-    font-size: 23px;
-    padding-left: 10px;
+    color: #596D48;
+    text-decoration: none;
 }
 
 form {
@@ -128,4 +137,8 @@ form {
 input {
     width: 75%;
     height: 20px;
+}
+
+label {
+    color: rgb(95, 95, 95);
 }
