@@ -169,6 +169,17 @@ input {
     height: 25px;
     font-size: 17px;
     padding: 5px;
+    border: solid 1px #E5E7EB;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: solid 1px #2100f7;
+    box-shadow: 0 0 5px rgba(37, 99, 235, 0.5);
+}
+
+#confirm_password:invalid, #password:invalid {
+    border: solid 1px red;
 }
 
 label {
