@@ -80,7 +80,7 @@ main {
     display: flex;
     flex: 1.05;
     /* border: 3px solid rgb(37, 187, 228); */
-    background-color: rgba(249,250,251);
+    background-color: rgba(249, 250, 251);
 }
 
 .top-section p {
@@ -141,7 +141,7 @@ main {
     height: 100%;
     /* border: 3px solid red; */
     padding: 40px;
-    background-color: rgba(249,250,251);
+    background-color: rgba(249, 250, 251);
 }
 
 button {
@@ -155,9 +155,17 @@ button {
     width: 30%;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 a {
     color: #596D48;
     text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 form {
@@ -178,7 +186,8 @@ input:focus {
     box-shadow: 0 0 5px rgba(37, 99, 235, 0.5);
 }
 
-#confirm_password:invalid, #password:invalid {
+#confirm_password:invalid,
+#password:invalid {
     border: solid 1px red;
 }
 
